@@ -235,6 +235,22 @@ http://EC2_PUBLIC_IP:5000
 7️⃣ Application becomes live on the internet
 
 ---
+# ⚠️ Challenges Faced & Solutions
+
+### ❌ Issue: Docker not running
+✔ Solution: Started Docker Desktop and verified daemon status
+
+### ❌ Issue: Port 5000 not accessible
+✔ Solution: Updated AWS Security Group to allow port 5000
+
+### ❌ Issue: Permission denied (Docker)
+✔ Solution: Used `sudo` or added user to docker group
+
+### ❌ Issue: CI/CD Docker login failed
+✔ Solution: Used DockerHub Access Token instead of password
+
+### ❌ Issue: Port already allocated
+✔ Solution: Stopped existing container using same port
 
 # 📌 GitHub Repository
 
