@@ -1,3 +1,4 @@
+#basic Flask application for DevOps project
 from flask import Flask
 
 app = Flask(__name__)
