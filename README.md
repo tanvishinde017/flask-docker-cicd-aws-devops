@@ -130,7 +130,7 @@ http://localhost:5000
 
 ![Docker Build](screenshots/docker-build.png)
 
-Build Docker image:
+Build Docker image
 
 ```
 docker build -t tanvishinde017/flask-devops-app .
