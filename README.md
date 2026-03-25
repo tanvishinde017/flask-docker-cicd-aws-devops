@@ -10,7 +10,7 @@ The objective of this project is to showcase how modern applications are **conta
 
 ![Workflow](architecture/workflow.png)
 
-This architecture represents the **end-to-end DevOps pipeline**:
+This architecture represents the **end-to-end DevOps pipeline** :
 
 Developer → GitHub → GitHub Actions → DockerHub → AWS EC2 → Live Application
 
@@ -249,8 +249,8 @@ http://EC2_PUBLIC_IP:5000
 ### ❌ Issue: CI/CD Docker login failed
 ✔ Solution: Used DockerHub Access Token instead of password
 
-### ❌ Issue: Port already allocated
-✔ Solution: Stopped existing container using same port
+### ❌ Issue: Port already allocated .
+✔ Solution: Stopped existing container using same port.
 
 # 📌 GitHub Repository
 
