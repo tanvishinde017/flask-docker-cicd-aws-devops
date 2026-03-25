@@ -20,7 +20,7 @@ Developer → GitHub → GitHub Actions → DockerHub → AWS EC2 → Live Appli
 
 ![Docker Commands](architecture/commands.png)
 
-The project uses multiple Docker commands for:
+The project uses multiple Docker commands for :
 
 - Building images
 - Running containers
@@ -118,7 +118,7 @@ Run the application locally:
 python app.py
 ```
 
-Application runs on:
+Application runs on :
 
 ```
 http://localhost:5000
